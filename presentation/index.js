@@ -519,8 +519,9 @@ export default class Presentation extends React.Component {
           code={code.fetching}
           ranges={[
             { loc: [0, 13], title: "Create query" },
-            { loc: [14, 33], title: "Fetch data and store in state" },
-            { loc: [34, 50], title: "Add lifecycle functions" },
+            { loc: [14, 26], title: "Fetch data and store in state" },
+            { loc: [27, 42], title: "Add lifecycle functions" },
+            { loc: [43, 50], title: "Replace where the data comes from" },
           ]}
         />
 
@@ -529,7 +530,7 @@ export default class Presentation extends React.Component {
           <Heading size={3} textColor="secondary" fontWeight="bold">
             Thank You! You are ✨✨✨ awesome ✨✨✨
           </Heading>
-          <Image width="60%" src={images.youareawesome} />
+          <Image width="40%" src={images.youareawesome} />
         </Slide>
 
 

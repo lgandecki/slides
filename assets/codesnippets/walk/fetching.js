@@ -12,27 +12,19 @@ class Picture extends Component {
   render() {...}
 }
 
-// Picture.js
-class Picture extends Component {
-  ...
-
-  fetchData = date => {
-    const query = API + `date=${date}&api_key=${API_KEY}`;
-    fetch(query)
-      .then(response => response.json())
-      .then(data => {
-        this.setState({
-          title: data.title,
-          explanation: data.explanation,
-          url: data.url
-        });
+fetchData = date => {
+  const query = API + `date=${date}&api_key=${API_KEY}`;
+  fetch(query)
+    .then(response => response.json())
+    .then(data => {
+      this.setState({
+        title: data.title,
+        explanation: data.explanation,
+        url: data.url
       });
-  };
-
-  ...
+    });
 }
 
-// Picture.js
 class Picture extends Component {
   ...
   componentDidMount() {
