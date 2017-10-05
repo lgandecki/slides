@@ -11,5 +11,5 @@ const multiply = (x, y) => {
 // Skip curly braces
 const multiply = (x, y) => x * y;
 
-//If one argument you can skip braces too
+//If one argument you can skip parentheses too
 const addTwo = x => x + 2;
