@@ -207,10 +207,10 @@ export default class Presentation extends React.Component {
           <Image width="100%" src={images.reactWebsiteComponents} />
         </Slide>
 
-        {/* reactjs.org website with components wrapped in App component */}
+        {/* reactjs.org website with components wrapped in an App component */}
         <Slide transition={["fade"]} bgColor="primary">
           <Heading size={6} textColor="secondary">
-            ... that are wrapped in App component
+            ... that are wrapped in an App component
           </Heading>
           <Image width="100%" src={images.reactWebsiteAppComponent} />
         </Slide>
